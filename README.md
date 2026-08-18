@@ -10,35 +10,35 @@ I build real-world web applications and integrate AI into products that solve pr
 
 ## About me
 
-- 🎓 Software Engineering student focused on application development and systems security
-- 🤖 Interested in AI engineering and practical AI integration
-- 🌐 Building full-stack web applications from idea to deployment
-- 🔐 Interested in secure authentication, APIs and payment systems
-- 🚀 Focused on turning real-world problems into usable digital products
+- Software Engineering student focused on application development and systems security
+- Interested in AI engineering and practical AI integration
+- Building full-stack web applications from idea to deployment
+- Interested in secure authentication, APIs and payment systems
+- Focused on turning real-world problems into usable digital products
 
 ## Featured Projects
 
-### 🛒 UCAO Marketplace
+### UCAO Marketplace
 
 A marketplace platform designed for the UCAO-UUT student ecosystem.
 
 **Full-stack marketplace · seller plans · JWT authentication · PostgreSQL · payment integration · AI features · security-oriented architecture**
 
-[Repository](https://github.com/Alfred-bit-co/ucao-marketplace)
+[Repository](https://github.com/Alfred-bit-co/UCAO-marketplaceV1)
 
-### 🤖 DataAnalys.AI
+###  DataAnalys.AI
 
 An AI-oriented project focused on using intelligent systems to work with data and deliver useful insights.
 
 [Repository](https://github.com/Alfred-bit-co/DataAnalys.AI)
 
-### 🛍️ Panier d'Or
+### Panier d'Or
 
 A digital commerce platform built around a real-world business use case.
 
 [Repository](https://github.com/Alfred-bit-co/Panier_Dor)
 
-### 💼 Portfolio
+### Portfolio
 
 My personal developer portfolio and project showcase.
 
