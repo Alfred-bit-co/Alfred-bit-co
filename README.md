@@ -48,9 +48,9 @@ My personal developer portfolio and project showcase.
 
 ## Tech Stack
 
-**Languages:** `Python` `JavaScript` `TypeScript` `HTML` `CSS` `PHP` `Dart`
+**Languages:** `Python` `JavaScript` `Java` `HTML` `CSS` `PHP`
 
-**Frameworks:** `React` `Vite` `Tailwind CSS` `Flask` `Node.js` `Express` `Flutter`
+**Frameworks:** `Tailwind CSS` `Flask` `Node.js` 
 
 **Data & Backend:** `PostgreSQL` `MySQL` `Supabase` `Firebase` `SQLAlchemy`
 
