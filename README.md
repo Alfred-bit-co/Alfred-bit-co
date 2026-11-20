@@ -50,7 +50,7 @@ My personal developer portfolio and project showcase.
 
 **Languages:** `Python` `JavaScript` `Java` `HTML` `CSS` `PHP`
 
-**Frameworks:** `Tailwind CSS` `Flask` `Node.js` 
+**Frameworks:** `Tailwind CSS` `Flask` `typescript` 
 
 **Data & Backend:** `PostgreSQL` `MySQL` `Supabase` `Firebase` `SQLAlchemy`
 
