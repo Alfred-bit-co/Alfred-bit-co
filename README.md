@@ -1,74 +1,131 @@
-# Alfred AYITOU
+<!--
+  Profile README — Alfred AYITOU (@Alfred-bit-co)
+  • Visual assets live in /assets (dark + light variants, self-hosted → never break).
+  • Stats cards in /profile and the contribution snake are regenerated daily by
+    .github/workflows/profile.yml (no third-party service, no personal token needed).
+-->
 
-### AI-Oriented Full-Stack Developer
+<a href="https://alfred-bit-co.github.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+    <img alt="Alfred AYITOU — AI-Oriented Full-Stack Developer, based in Lomé, Togo" src="./assets/banner-dark.svg" width="100%">
+  </picture>
+</a>
 
-I build real-world web applications and integrate AI into products that solve practical problems.
-
-🇹🇬 Based in Togo
-
----
+<br>
 
 ## About me
 
-- Software Engineering student focused on application development and systems security
-- Interested in AI engineering and practical AI integration
-- Building full-stack web applications from idea to deployment
-- Interested in secure authentication, APIs and payment systems
-- Focused on turning real-world problems into usable digital products
+I'm a **Software Engineering student** and **freelance full-stack developer** from Togo 🇹🇬.
+I take products from idea to deployment — and I'm especially interested in where **AI**, **security** and **real-world usability** meet.
 
-## Featured Projects
+- 🎓 **Studying** — Software Engineering (Licence 3) at UCAO-UUT, Lomé, with a focus on application development and systems security
+- 🛠️ **Building** — full-stack web applications with Flask, Next.js and PostgreSQL, shipped for real clients
+- 🔐 **Caring about** — secure authentication (JWT, OAuth), clean APIs and payment systems, including mobile money
+- 🤖 **Exploring** — LLM integration and practical AI features inside everyday products
+- 🎯 **Heading toward** — AI engineering: products with solid architecture, security and real users
 
-### UCAO Marketplace
+<p align="center">
+  <sub><b>SOFTWARE ENGINEERING</b> &nbsp;×&nbsp; <b>AI</b> &nbsp;×&nbsp; <b>SECURITY</b> &nbsp;×&nbsp; <b>REAL-WORLD PRODUCTS</b></sub>
+</p>
 
-A marketplace platform designed for the UCAO-UUT student ecosystem.
+<br>
 
-**Full-stack marketplace · seller plans · JWT authentication · PostgreSQL · payment integration · AI features · security-oriented architecture**
+## Featured projects
 
-[Repository](https://github.com/Alfred-bit-co/UCAO-marketplaceV1)
+<p align="center">
+  <a href="https://github.com/Alfred-bit-co/UCAO-marketplaceV1">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-ucao-marketplace-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-ucao-marketplace-light.svg">
+      <img alt="UCAO Marketplace" src="./assets/project-ucao-marketplace-dark.svg" width="49%">
+    </picture>
+  </a>
+  <a href="https://github.com/Alfred-bit-co/DataAnalys.AI">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-dataanalys-ai-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-dataanalys-ai-light.svg">
+      <img alt="DataAnalys.AI" src="./assets/project-dataanalys-ai-dark.svg" width="49%">
+    </picture>
+  </a>
+  <a href="https://github.com/Alfred-bit-co/Panier_Dor">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-panier-dor-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-panier-dor-light.svg">
+      <img alt="Panier d'Or" src="./assets/project-panier-dor-dark.svg" width="49%">
+    </picture>
+  </a>
+  <a href="https://github.com/Alfred-bit-co/portfolio">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-portfolio-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/project-portfolio-light.svg">
+      <img alt="Portfolio" src="./assets/project-portfolio-dark.svg" width="49%">
+    </picture>
+  </a>
+</p>
 
-###  DataAnalys.AI
+<br>
 
-An AI-oriented project focused on using intelligent systems to work with data and deliver useful insights.
+## Tech stack
 
-[Repository](https://github.com/Alfred-bit-co/DataAnalys.AI)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Tech stack: Python, JavaScript, TypeScript, Java, HTML, CSS, PHP · Flask, Next.js, Tailwind CSS · PostgreSQL, MySQL, Supabase, Firebase, SQLAlchemy · LLM APIs, REST APIs, JWT, OAuth, Mobile Money · Docker, Git, GitHub, Prometheus, Grafana" src="./assets/stack-dark.svg" width="100%">
+</picture>
 
-### Panier d'Or
+<br>
 
-A digital commerce platform built around a real-world business use case.
+## GitHub activity
 
-[Repository](https://github.com/Alfred-bit-co/Panier_Dor)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
+    <img alt="GitHub stats" src="./profile/stats-dark.svg" height="180">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
+    <img alt="Most used languages" src="./profile/top-langs-dark.svg" height="180">
+  </picture>
+</p>
 
-### Portfolio
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alfred-bit-co/Alfred-bit-co/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alfred-bit-co/Alfred-bit-co/output/snake-light.svg">
+  <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/Alfred-bit-co/Alfred-bit-co/output/snake-dark.svg" width="100%">
+</picture>
 
-My personal developer portfolio and project showcase.
-
-[Repository](https://github.com/Alfred-bit-co/portfolio)
-
----
-
-## Tech Stack
-
-**Languages:** `Python` `JavaScript` `Java` `HTML` `CSS` `PHP`
-
-**Frameworks:** `Tailwind CSS` `Flask` `typescript` 
-
-**Data & Backend:** `PostgreSQL` `MySQL` `Supabase` `Firebase` `SQLAlchemy`
-
-**AI & Engineering:** `AI APIs` `LLM Integration` `REST APIs` `JWT` `OAuth` `Docker` `Git` `GitHub`
-
----
-
-## What I'm building toward
-
-My long-term goal is to become a **software engineer specialized in AI-powered products**, with a strong understanding of architecture, security and product development.
-
-**Software Engineering × AI × Security × Real-world Products**
-
----
+<br>
 
 ## Connect
 
-- GitHub: [@Alfred-bit-co](https://github.com/Alfred-bit-co)
-- Portfolio: [alfred-bit-co.github.io](https://alfred-bit-co.github.io)
+<p align="left">
+  <a href="https://alfred-bit-co.github.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg">
+      <img alt="Portfolio — alfred-bit-co.github.io" src="./assets/btn-portfolio-dark.svg" height="48">
+    </picture>
+  </a>&nbsp;
+  <a href="https://github.com/Alfred-bit-co">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-github-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-github-light.svg">
+      <img alt="GitHub — @Alfred-bit-co" src="./assets/btn-github-dark.svg" height="48">
+    </picture>
+  </a>&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-location-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/btn-location-light.svg">
+    <img alt="Based in Lomé, Togo" src="./assets/btn-location-dark.svg" height="48">
+  </picture>
+</p>
 
-> Building software is not only about writing code. It's about turning problems into systems that people can actually use.
+<br>
+
+<p align="center">
+  <i>“Building software is not only about writing code.<br>It's about turning problems into systems that people can actually use.”</i>
+</p>

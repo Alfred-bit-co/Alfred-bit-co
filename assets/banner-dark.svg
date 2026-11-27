@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Alfred AYITOU — AI-Oriented Full-Stack Developer</title>
+  <desc id="desc">Software engineer based in Lomé, Togo, building real-world web products and integrating AI into them.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#8B949E"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="m"><rect width="1280" height="360" fill="url(#fade)"/></mask>
+    <clipPath id="clip"><rect x="1" y="1" width="1278" height="358" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#dots)" opacity="0.28" mask="url(#m)"/>
+    <rect width="1280" height="360" fill="url(#glow)"/>
+    <g stroke="url(#acc)" stroke-width="1.2" stroke-opacity="0.35"><line x1="905" y1="95" x2="990" y2="60"/><line x1="990" y1="60" x2="1080" y2="110"/><line x1="1080" y1="110" x2="1175" y2="70"/><line x1="905" y1="95" x2="960" y2="175"/><line x1="990" y1="60" x2="960" y2="175"/><line x1="1080" y1="110" x2="1060" y2="205"/><line x1="960" y1="175" x2="1060" y2="205"/><line x1="1060" y1="205" x2="1160" y2="170"/><line x1="1175" y1="70" x2="1160" y2="170"/><line x1="1160" y1="170" x2="1225" y2="245"/><line x1="960" y1="175" x2="920" y2="270"/><line x1="920" y1="270" x2="1015" y2="295"/><line x1="1060" y1="205" x2="1015" y2="295"/><line x1="1015" y1="295" x2="1120" y2="285"/><line x1="1120" y1="285" x2="1160" y2="170"/><line x1="1120" y1="285" x2="1200" y2="320"/><line x1="1225" y1="245" x2="1200" y2="320"/><line x1="1080" y1="110" x2="1160" y2="170"/></g>
+    <circle cx="1080" cy="110" r="6" fill="none" stroke="#2DD4BF" stroke-width="1.5"><animate attributeName="r" values="6;22" dur="3.6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3.6s" begin="0s" repeatCount="indefinite"/></circle><circle cx="1060" cy="205" r="6" fill="none" stroke="#2DD4BF" stroke-width="1.5"><animate attributeName="r" values="6;22" dur="3.6s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3.6s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="1015" cy="295" r="6" fill="none" stroke="#2DD4BF" stroke-width="1.5"><animate attributeName="r" values="6;22" dur="3.6s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3.6s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <g opacity="0.95"><circle cx="905" cy="95" r="3.5" fill="url(#acc)"/><circle cx="990" cy="60" r="3.5" fill="url(#acc)"/><circle cx="1080" cy="110" r="6" fill="url(#acc)"/><circle cx="1175" cy="70" r="3.5" fill="url(#acc)"/><circle cx="960" cy="175" r="3.5" fill="url(#acc)"/><circle cx="1060" cy="205" r="6" fill="url(#acc)"/><circle cx="1160" cy="170" r="3.5" fill="url(#acc)"/><circle cx="1225" cy="245" r="3.5" fill="url(#acc)"/><circle cx="920" cy="270" r="3.5" fill="url(#acc)"/><circle cx="1015" cy="295" r="6" fill="url(#acc)"/><circle cx="1120" cy="285" r="3.5" fill="url(#acc)"/><circle cx="1200" cy="320" r="3.5" fill="url(#acc)"/></g>
+    <rect x="0" y="0" width="6" height="360" fill="url(#acc)"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="358" rx="24" fill="none" stroke="#30363D"/>
+
+  <text x="72" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="3" fill="#2DD4BF">SOFTWARE ENGINEER  ·  LOMÉ, TOGO</text>
+  <text x="70" y="160" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#E6EDF3">Alfred AYITOU</text>
+  <text x="72" y="209" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="url(#acc)">AI-Oriented Full-Stack Developer</text>
+  <text x="72" y="250" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#8B949E">I build real-world web applications and integrate AI into products that solve practical problems.</text>
+  <rect x="72" y="290" width="310" height="36" rx="18" fill="#3FB950" fill-opacity="0.12" stroke="#3FB950" stroke-opacity="0.45"/><circle cx="92" cy="308" r="5" fill="#3FB950"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle><text x="106" y="313.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#3FB950">Available for freelance projects</text><rect x="394" y="290" width="114" height="36" rx="18" fill="#1C2230" stroke="#30363D"/><text x="451" y="313.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9D1D9">Full-Stack</text><rect x="518" y="290" width="148" height="36" rx="18" fill="#1C2230" stroke="#30363D"/><text x="592" y="313.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9D1D9">AI Integration</text><rect x="676" y="290" width="98" height="36" rx="18" fill="#1C2230" stroke="#30363D"/><text x="725" y="313.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9D1D9">Security</text>
+</svg>
