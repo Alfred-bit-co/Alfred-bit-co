@@ -1,0 +1,91 @@
+name: Update profile cards
+
+# Regenerates the GitHub stats cards (./profile/*.svg) and the contribution
+# animation (branch "output") used by README.md.
+# Everything runs on GitHub's own infrastructure with the built-in token:
+# no external service to go down, no personal access token to manage.
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # every day at 04:17 UTC
+  workflow_dispatch: # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile/**"
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    name: Stats cards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&custom_title=GitHub%20Stats&hide_border=false&border_radius=16&bg_color=161B22&border_color=30363D&title_color=2DD4BF&icon_color=2DD4BF&ring_color=2DD4BF&text_color=C9D1D9
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&custom_title=GitHub%20Stats&hide_border=false&border_radius=16&bg_color=FFFFFF&border_color=D0D7DE&title_color=0F766E&icon_color=0F766E&ring_color=0F766E&text_color=31383F
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Most%20Used%20Languages&border_radius=16&bg_color=161B22&border_color=30363D&title_color=2DD4BF&text_color=C9D1D9
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Most%20Used%20Languages&border_radius=16&bg_color=FFFFFF&border_color=D0D7DE&title_color=0F766E&text_color=31383F
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: refresh profile stats cards" || exit 0
+          git pull --rebase origin main
+          git push
+
+  snake:
+    name: Contribution animation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#2DD4BF&color_dots=#161B22,#0E4441,#11655E,#14917F,#2DD4BF&color_dot_border=#0D1117
+            dist/snake-light.svg?color_snake=#0F766E&color_dots=#EBEEF1,#B7E4DC,#6CC5B7,#2A9D8F,#0F766E&color_dot_border=#FFFFFF
+
+      - name: Publish to the "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

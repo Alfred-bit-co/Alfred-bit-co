@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="236" viewBox="0 0 600 236" role="img" aria-label="DataAnalys.AI project">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="234" rx="16" fill="#161B22" stroke="#30363D"/>
+  <rect x="28" y="24" width="44" height="44" rx="11" fill="#2DD4BF" fill-opacity="0.12" stroke="#2DD4BF" stroke-opacity="0.35"/>
+  <g transform="translate(39 35) scale(0.9166666666666666)" fill="none" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16" />
+  <path d="M18 17V9" />
+  <path d="M13 17V5" />
+  <path d="M8 17v-3" /></g>
+  <text x="88" y="55" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#E6EDF3">DataAnalys.AI</text>
+  <rect x="494" y="31" width="34" height="24" rx="12" fill="none" stroke="url(#acc)"/>
+  <text x="511" y="47.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#2DD4BF">AI</text>
+  <g transform="translate(548 33) scale(0.9166666666666666)" fill="none" stroke="#8B949E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" />
+  <path d="M7 17 17 7" /></g>
+  <text x="28" y="114" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#8B949E">AI-oriented project that turns raw data</text><text x="28" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#8B949E">into clear, useful insights.</text>
+  <rect x="28" y="180" width="39" height="32" rx="9" fill="#1F2937" stroke="#30363D" stroke-opacity="0.6"/><text x="48" y="201" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" fill="#C9D1D9">AI</text><rect x="75" y="180" width="135" height="32" rx="9" fill="#1F2937" stroke="#30363D" stroke-opacity="0.6"/><text x="143" y="201" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" fill="#C9D1D9">Data analysis</text><rect x="218" y="180" width="91" height="32" rx="9" fill="#1F2937" stroke="#30363D" stroke-opacity="0.6"/><text x="264" y="201" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" fill="#C9D1D9">Insights</text>
+</svg>
